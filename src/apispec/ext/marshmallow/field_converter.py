@@ -25,7 +25,7 @@ DEFAULT_FIELD_MAPPING = {
     marshmallow.fields.Integer: ("integer", None),
     marshmallow.fields.Number: ("number", None),
     marshmallow.fields.Float: ("number", None),
-    marshmallow.fields.Decimal: ("number", None),
+    marshmallow.fields.Decimal: ("number", "decimal"),
     marshmallow.fields.String: ("string", None),
     marshmallow.fields.Boolean: ("boolean", None),
     marshmallow.fields.UUID: ("string", "uuid"),
